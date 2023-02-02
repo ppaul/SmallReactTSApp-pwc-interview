@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+}
+
+table {
+  min-width: 50%;
+  border-collapse: collapse;
+  border: 1px solid black;
+ th {
+  border: 1px solid black;
+  padding: 5px;
+  }
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+}
+
+.image, .container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.container {
+  align-items: center;
+  height: 100vh;
+}
